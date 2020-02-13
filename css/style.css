@@ -16,18 +16,24 @@ header {
 }
 
 .menu li {
+    padding-top: 10px;
     list-style-type: none;
     display:inline-block;
     margin-left: 10px;
+    padding-bottom:10px;
+    border-bottom: solid 2px transparent;
+}
+
+.menu li:hover, .menu li:active {
+    border-bottom: solid 2px rgb(114, 192, 131);
 }
 
 a:link, a:visited {
     text-decoration: none;
-    color: rgb(45, 172, 62);
-    font-size: 1.3em;
+    font-size: 1.5em;
+    color:rgb(37, 141, 60);
 }
 
 a:hover, a:active {
-    color: rgba(45, 172, 62, 0.5);
-    text-decoration: underline;
+    color:rgb(114, 192, 131);
 }
