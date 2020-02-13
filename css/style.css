@@ -23,3 +23,13 @@ a:link, a:visited {
     text-decoration: none;
     color: rgb(45, 172, 62);
 }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    text-align:center;
+}
